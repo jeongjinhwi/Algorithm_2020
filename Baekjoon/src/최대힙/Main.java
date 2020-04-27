@@ -12,7 +12,7 @@ public class Main {
 		// TODO 자동 생성된 메소드 스텁
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		PriorityQueue<Integer> q = new PriorityQueue<>((a,b) -> b-a);
+		PriorityQueue<Integer> q = new PriorityQueue<>((a,b) -> b-a);	//최대힙 구성
 		st = new StringTokenizer(br.readLine());
 		N = Integer.parseInt(st.nextToken());
 		for(int i = 0; i < N; i++){
