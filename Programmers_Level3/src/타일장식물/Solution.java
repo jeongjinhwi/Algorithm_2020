@@ -20,7 +20,6 @@ public class Solution {
 				q.add(pre+next);
 			}
 		}
-		answer = q.poll();
 		Collections.sort(list);
 		Collections.reverse(list);
 		
